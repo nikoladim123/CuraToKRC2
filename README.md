@@ -44,7 +44,6 @@ To achieve accurate volumetric printing, you must compute the linear flow rate c
 2. Place an empty material container on a digital scale and tare it to zero[cite: 2].
 3. Extrude continuous filament through the hotend for a fixed timeline (between 300 and 600 seconds)[cite: 2].
 4. Measure the extruded weight in grams and divide it by your elapsed seconds[cite: 2]:
-   $$\text{flow\_at\_1v\_g\_per\_sec} = \frac{\text{grams}}{\text{seconds}}$$
 5. Update your value in `krl_config.json`[cite: 3]. To confirm linear extrusion response, repeat the test at 2 Volts (`ANOUT = 0.2`) and verify the output mass doubles[cite: 2]. If non-linear scaling occurs, restrict your system boundaries via the `"max_volt"` threshold[cite: 2, 3].
 
 ---
