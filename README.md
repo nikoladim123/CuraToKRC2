@@ -1,6 +1,6 @@
 # Cura KRL Writer Plugin (KUKA KRC2 3D Printing)
 
-Developed by **Nikola Dimitrijevic** - DIATEH d.o.o., Croatia.
+Developed by **Nikola Dimitrijevic**
 
 A lightweight, high-performance Ultimaker Cura output device plugin designed to bypass complex CAD/CAM software pipelines[cite: 1, 3, 4]. Created by **Nikola Dimitrijevic**, this tool natively translates your sliced 3D printing G-code paths directly into industrial KUKA Robot Language (`.src` / `.dat`) formatted blocks specifically optimized for legacy **KUKA KRC2** controllers[cite: 1, 2, 3, 4].
 
