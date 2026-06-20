@@ -1,0 +1,8 @@
+{
+    "name": "KRL Writer",
+    "author": "Nikola Dimitrijevic",
+    "version": "1.0.0",
+    "description": "Exports toolpath as KUKA KRL .src file for KRC2",
+    "api": "8.0",
+    "i18n-catalog": "cura"
+}

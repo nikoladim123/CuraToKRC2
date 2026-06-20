@@ -1,0 +1,36 @@
+{
+    "_comment": "KRL Writer configuration file for KUKA KRC2 robot 3D printing",
+
+    "_calibration_instructions": [
+        "HOW TO CALIBRATE flow_at_1v_g_per_sec:",
+        "1. Set extruder analog input to 1V (ANOUT = 0.1 on KRC2)",
+        "2. Place container on scale, tare to zero",
+        "3. Run extruder for 300-600 seconds",
+        "4. Divide grams by seconds: flow_at_1v_g_per_sec = grams / seconds",
+        "5. Verify linearity by measuring at 2V and checking if flow doubles",
+        "If not linear, reduce max_volt to the linear range of your extruder"
+    ],
+
+    "flow_at_1v_g_per_sec": 0.065,
+    "max_volt": 6.0,
+    "material_density_g_cm3": 1.27,
+    "extrude_wait_sec": 0.2,
+
+    "_orientation_comment": "Fixed tool orientation during printing (A, B, C in degrees)",
+    "tool_orientation": {
+        "A": -178.635,
+        "B": -0.000,
+        "C": -180.000
+    },
+
+    "_home_comment": "Home position in joint angles (A1-A6)",
+    "home_position": [0.0, -90.0, 90.0, 0.0, 0.0, 0.0],
+
+    "_approach_comment": "Approach position near print area in joint angles (A1-A6)",
+    "approach_position": [1.62725, -51.99397, 108.41167, -178.04696, 56.43304, 178.91985],
+
+    "tool_number": 1,
+    "base_number": 1,
+    "vel_cp_default": 0.2,
+    "chunk_size": 25000
+}
